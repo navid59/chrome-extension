@@ -1,0 +1,20 @@
+{
+    "name": "Netopia",
+    "description": "During implementation of your online payment via NETOPIA Payments, you will need at least one time to test your application on SANDBOX mode. This extension give you test card to test your website payment system.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "16":"icon.png",
+        "48":"icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.mobilpay.ro/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "NETOPIA Payments"
+    }
+}
