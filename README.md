@@ -32,3 +32,6 @@ Select the type of card which you want to pay & click on **Use it** or **Use it 
 
 - **Use it** : just fill the form and will not submit the form.
 - **Use it & submit** : will fill the form & will submit the form as well.
+
+## What is \"contact info\" buttons
+In any case if during your testing is appear the Billing info in 2th page of payments, by using this buttons, you can generate the test billing info.

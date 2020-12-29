@@ -119,11 +119,22 @@ document.addEventListener("DOMContentLoaded", function() {
           })
        }
 
-    // var buttons = document.getElementsByClassName('btn');
-    // for (var i = 0; i < buttons.length; i++) {
-    //     buttons[i].addEventListener('click', function() {
-    //         alert(this.id);
-    //     })
-    // }
+    /**
+     *  To fill Billing form
+     */
+    document.getElementById('contact-info').onclick=function(){
+        chrome.tabs.query({
+            currentWindow: true, active: true
+        }, function(tabs){
+            chrome.tabs.sendMessage(tabs[0].id, "contact-info")
+        })
+     }
+     document.getElementById('contact-info-submit').onclick=function(){
+        chrome.tabs.query({
+            currentWindow: true, active: true
+        }, function(tabs){
+            chrome.tabs.sendMessage(tabs[0].id, "contact-info-submit")
+        })
+     }
 
   });
