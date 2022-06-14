@@ -118,6 +118,21 @@ document.addEventListener("DOMContentLoaded", function() {
               chrome.tabs.sendMessage(tabs[0].id, "eroare-banca-submit")
           })
        }
+ 
+    document.getElementById('three-ds-card').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "three-ds-card")
+          })
+       }
+    document.getElementById('three-ds-card-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "three-ds-card-submit")
+          })
+       }
 
     /**
      *  To fill Billing form

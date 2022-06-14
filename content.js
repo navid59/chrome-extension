@@ -62,6 +62,11 @@ chrome.runtime.onMessage.addListener(function(request) {
               shouldSubmit = true;
           case 'eroare-banca':
               document.getElementById("paymentCardNumber").value = "9900130597497640";
+            break; 
+          case 'three-ds-card-submit':
+              shouldSubmit = true;
+          case 'hree-ds-card':
+              document.getElementById("paymentCardNumber").value = "9900009184214768";
             break;     
           default:
             // Nothing
