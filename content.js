@@ -65,9 +65,55 @@ chrome.runtime.onMessage.addListener(function(request) {
             break; 
           case 'three-ds-card-submit':
               shouldSubmit = true;
-          case 'hree-ds-card':
+          case 'three-ds-card':
               document.getElementById("paymentCardNumber").value = "9900009184214768";
-            break;     
+            break;
+
+          case 'errorCode16-submit':
+              shouldSubmit = true;
+          case 'errorCode16':
+              document.getElementById("paymentCardNumber").value = "9900163421519917";
+            break;
+          case 'errorCode17-submit':
+              shouldSubmit = true;
+          case 'errorCode17':
+              document.getElementById("paymentCardNumber").value = "9900175243557578";
+            break;
+          case 'errorCode18-submit':
+              shouldSubmit = true;
+          case 'errorCode18':
+              document.getElementById("paymentCardNumber").value = "9900188825730679";
+            break;
+          case 'errorCode32-submit':
+              shouldSubmit = true;
+          case 'errorCode32':
+              document.getElementById("paymentCardNumber").value = "9900321701614663";
+            break;
+          case 'errorCode33-submit':
+              shouldSubmit = true;
+          case 'errorCode33':
+              document.getElementById("paymentCardNumber").value = "9900334438842671";
+            break;
+          case 'errorCode35-submit':
+              shouldSubmit = true;
+          case 'errorCode35':
+              document.getElementById("paymentCardNumber").value = "9900357124079225";
+            break;
+          case 'errorCode36-submit':
+              shouldSubmit = true;
+          case 'errorCode36':
+              document.getElementById("paymentCardNumber").value = "9900364277624492";
+            break;
+          case 'errorCode37-submit':
+              shouldSubmit = true;
+          case 'errorCode37':
+              document.getElementById("paymentCardNumber").value = "9900372427602631";
+            break;
+          case 'errorCode99-submit':
+              shouldSubmit = true;
+          case 'errorCode99':
+              document.getElementById("paymentCardNumber").value = "9900996831251880";
+            break;
           default:
             // Nothing
         }

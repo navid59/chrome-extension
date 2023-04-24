@@ -134,6 +134,143 @@ document.addEventListener("DOMContentLoaded", function() {
           })
        }
 
+    ///////////////////////////////   
+    document.getElementById('errorCode16').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode16")
+          })
+       }
+    document.getElementById('errorCode16-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode16-submit")
+          })
+       }
+
+    document.getElementById('errorCode17').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode17")
+          })
+       }
+    document.getElementById('errorCode17-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode17-submit")
+          })
+       }
+
+    document.getElementById('errorCode18').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode18")
+          })
+       }
+    document.getElementById('errorCode18-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode18-submit")
+          })
+       }
+
+    document.getElementById('errorCode32').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode32")
+          })
+       }
+    document.getElementById('errorCode32-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode32-submit")
+          })
+       }
+
+    document.getElementById('errorCode33').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode33")
+          })
+       }
+    document.getElementById('errorCode33-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode33-submit")
+          })
+       }
+
+    document.getElementById('errorCode35').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode35")
+          })
+       }
+    document.getElementById('errorCode35-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode35-submit")
+          })
+       }
+
+    document.getElementById('errorCode36').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode36")
+          })
+       }
+    document.getElementById('errorCode36-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode36-submit")
+          })
+       }
+
+    document.getElementById('errorCode37').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode37")
+          })
+       }
+    document.getElementById('errorCode37-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode37-submit")
+          })
+       }
+
+    document.getElementById('errorCode99').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode99")
+          })
+       }
+    document.getElementById('errorCode99-submit').onclick=function(){
+          chrome.tabs.query({
+              currentWindow: true, active: true
+          }, function(tabs){
+              chrome.tabs.sendMessage(tabs[0].id, "errorCode99-submit")
+          })
+       }
+    //////////////////////////////////
+
     /**
      *  To fill Billing form
      */
